@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>자기소개 페이지</title>
+		<style media="screen">
+			body{
+				background-image:url(static/background.jpg);
+				background-repeat:no-repeat;
+			}
+			body>* {
+				box-sizing:border-box;
+			}
+			table {
+				position:relative;
+				top:-20px;
+				margin:50px;
+				float:left;
+			}
+			div {
+				width:1200px;
+				font-size:25px;
+			}
+			.introduction {
+			  position:relative;
+				top:90px;
+			}
+			.links {
+				position:relative;
+				top:150px;
+			}
+			.links>p {
+				font-size:40px;
+			}
+			a {
+				margin:80px;
+				color:#CCEEFF;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="3">
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic1.jpg') }} height="350" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic2.jpg') }} height="312" alt="">
+				</td>
+			</tr>
+		</table>
+		<div class="introduction">
+			<h1>언제나 재미있게 공부하기</h1>
+			<p>N A M E : 손진현</p>
+			<p>E-MAIL : ikswary@naver.com</p>
+			<p>H - P : 010 - 5668 - 7153</p>
+		</div>
+		<div class="links">
+			<h2>페이지</h3>
+			<p>
+				<a href="http://127.0.0.1:3572/profile">약력</a>
+				<a href="http://127.0.0.1:3572/interest">취미</a>
+				<a href="http://127.0.0.1:3572/skills">Skills</a>
+			</p>
+		</div>
+
+
+	</body>
+</html>

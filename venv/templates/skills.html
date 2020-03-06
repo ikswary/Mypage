@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>자기소개 페이지</title>
+		<style media="screen">
+			body{
+				background-image:url(static/background.jpg);
+				background-repeat:no-repeat;
+			}
+			body>* {
+				box-sizing:border-box;
+			}
+			table {
+				position:relative;
+				top:-20px;
+				margin:50px;
+				float:left;
+			}
+			div {
+				width:1260px;
+				font-size:25px;
+				text-align: center;
+			}
+			h1 {
+				text-align: center;
+			}
+			ul {
+				font-size:35px;
+				text-align: left;
+			}
+			ul li {
+				margin:10px;
+			}
+			a {
+				font-size: 30px;
+				color:#CCEEFF;
+			}
+			.addition {
+				position:relative;
+				left:30px;
+				font-size: 28px;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="3">
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic1.jpg') }} height="350" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic2.jpg') }} height="312" alt="">
+				</td>
+			</tr>
+		</table>
+		<div>
+			<h1>Skills</h1>
+			<ul>
+				<li>
+					NETWORK
+					<p class="addition">
+						학부에서 Network Infrastructure에 관심을 가지고 공부했고<br>
+						네트워크 구조와 네트워크 프로토콜에 대한 기본적인 이해를 가지고있음<br>
+					</p>
+				</li>
+				<li>
+					JAVA
+					<p class="addition">
+						처음으로 체계적으로 배워본 프로그래밍 언어<br>
+						배운지는 얼마 되지 않았지만 무언가 주도적으로 가장 많이 시도해봄<br>
+						현재 객체 기반 프로그래밍에 가장 익숙한 언어이기도 함
+					</p>
+				</li>
+				<li>
+					PYTHON
+					<p class="addition">
+						학부생 시절 책 하나 펴놓고 처음 독학으로 익힌 언어<br>
+						타입캐스팅에 신경을 많이 쓰지 않아도 되서 알고리즘 해결할때 애용
+					</p>
+				</li>
+			</ul>
+			<a href="http://127.0.0.1:3572/">돌아가기</a>
+		</div>
+	</body>
+</html>

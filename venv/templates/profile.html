@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>자기소개 페이지</title>
+		<style media="screen">
+			body{
+				background-image:url(static/background.jpg);
+				background-repeat:no-repeat;
+			}
+			body>* {
+				box-sizing:border-box;
+			}
+			table {
+				position:relative;
+				top:-20px;
+				margin:50px;
+				float:left;
+			}
+			div {
+				width:1250px;
+				font-size:25px;
+				text-align: center;
+			}
+			h1 {
+				text-align: center;
+			}
+			ul {
+				font-size:30px;
+				text-align: left;
+			}
+			ul>li {
+				margin:20px;
+			}
+			a {
+				font-size: 30px;
+				color:#CCEEFF;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="3">
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic1.jpg') }} height="350" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic2.jpg') }} height="312" alt="">
+				</td>
+			</tr>
+		</table>
+		<div>
+			<h1>약 력</h1>
+			<ul>
+				<li>서울에서 태어나서 12년, 천안에서 10년, 청주에서 4년살이</li>
+				<li>충북대학교 정보통신공학부 13학번 입학</li>
+				<li>통기타 동아리, 합창 동아리, 봉사 동아리 등 활약 (결국 유령)</li>
+				<li>17년 2월 27일 육군 8사단 만기 전역</li>
+				<li>전역 후 10kg 획득</li>
+				<li>19년도 전반기 충북대학교 정보통신공학부 졸업</li>
+				<li>CCNA 취득</li>
+				<li>19년 하반기 취업도전 (망함)</li>
+				<li>상경 후 예비 위코더 ← NOW!</li>
+			</ul>
+			<a href="http://127.0.0.1:3572/">돌아가기</a>
+		</div>
+	</body>
+</html>

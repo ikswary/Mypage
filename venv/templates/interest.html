@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>자기소개 페이지</title>
+		<style media="screen">
+			body{
+				background-image:url(static/background.jpg);
+				background-repeat:no-repeat;
+			}
+			body>* {
+				box-sizing:border-box;
+			}
+			table {
+				position:relative;
+				top:-20px;
+				margin:50px;
+				float:left;
+			}
+			div {
+				width:1260px;
+				font-size:25px;
+				text-align: center;
+			}
+			h1 {
+				text-align: center;
+			}
+			ul {
+				font-size:35px;
+				text-align: left;
+			}
+			ul li {
+				margin:10px;
+			}
+			a {
+				font-size: 30px;
+				color:#CCEEFF;
+			}
+			.addition {
+				position:relative;
+				left:30px;
+				font-size: 28px;
+			}
+		</style>
+	</head>
+	<body>
+		<table border="3">
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic1.jpg') }} height="350" alt="">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<img src={{ url_for('static', filename='pic2.jpg') }} height="312" alt="">
+				</td>
+			</tr>
+		</table>
+		<div>
+			<h1>취 미</h1>
+			<ul>
+				<li>
+					야구
+					<p class="addition">
+						3년차 한화팬, 아직도 행복야구에 고통받는 중<br>
+						언젠가 뛰고싶은 사회인 야구에서는 투수 지망
+					</p>
+				</li>
+				<li>
+					혼코노
+					<p class="addition">
+						노래 부르는거 좋아함<br>
+						근데 나말고 아무도 모르는 노래라서<br>
+						결국 혼코노가 마음이 편한 슬픈 운명
+					</p>
+				</li>
+			</ul>
+			<a href="http://127.0.0.1:3572/">돌아가기</a>
+		</div>
+	</body>
+</html>
