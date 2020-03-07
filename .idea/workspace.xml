@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93ef2151-cccd-468f-b7fd-1a628ea891ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyPage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MyPage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/MyPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/MyPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,22 +78,26 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="422" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583481977951" />
-    <state width="1897" height="254" key="GridCell.Tab.0.bottom" timestamp="1583482200589">
+    <state width="1897" height="254" key="GridCell.Tab.0.bottom" timestamp="1583562255512">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583482200589" />
-    <state width="1897" height="254" key="GridCell.Tab.0.center" timestamp="1583482200589">
+    <state width="1897" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053/388.1080.1080.540@0.27.1920.1053" timestamp="1583562255512" />
+    <state width="1897" height="254" key="GridCell.Tab.0.bottom/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583561698974" />
+    <state width="1897" height="254" key="GridCell.Tab.0.center" timestamp="1583562255511">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="254" key="GridCell.Tab.0.center/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583482200589" />
-    <state width="1897" height="254" key="GridCell.Tab.0.left" timestamp="1583482200589">
+    <state width="1897" height="254" key="GridCell.Tab.0.center/0.27.1920.1053/388.1080.1080.540@0.27.1920.1053" timestamp="1583562255511" />
+    <state width="1897" height="254" key="GridCell.Tab.0.center/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583561698974" />
+    <state width="1897" height="254" key="GridCell.Tab.0.left" timestamp="1583562255511">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="254" key="GridCell.Tab.0.left/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583482200589" />
-    <state width="1897" height="254" key="GridCell.Tab.0.right" timestamp="1583482200589">
+    <state width="1897" height="254" key="GridCell.Tab.0.left/0.27.1920.1053/388.1080.1080.540@0.27.1920.1053" timestamp="1583562255511" />
+    <state width="1897" height="254" key="GridCell.Tab.0.left/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583561698974" />
+    <state width="1897" height="254" key="GridCell.Tab.0.right" timestamp="1583562255512">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1897" height="254" key="GridCell.Tab.0.right/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583482200589" />
+    <state width="1897" height="254" key="GridCell.Tab.0.right/0.27.1920.1053/388.1080.1080.540@0.27.1920.1053" timestamp="1583562255512" />
+    <state width="1897" height="254" key="GridCell.Tab.0.right/0.27.1920.1053/394.1080.1080.540@0.27.1920.1053" timestamp="1583561698974" />
     <state x="452" y="154" width="1016" height="743" key="SettingsEditor" timestamp="1583482004008">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
